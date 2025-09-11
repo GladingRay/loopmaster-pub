@@ -1,0 +1,16 @@
+name:mkl,tn:1,m:8192,n:8192,k:16,time(ms):1403.6760,gflops:15.2990
+name:mkl,tn:1,m:8192,n:8192,k:32,time(ms):1725.2668,gflops:24.8945
+name:mkl,tn:1,m:8192,n:8192,k:48,time(ms):2445.5759,gflops:26.3433
+name:mkl,tn:1,m:8192,n:8192,k:64,time(ms):2669.0472,gflops:32.1835
+name:mkl,tn:1,m:8192,n:8192,k:80,time(ms):2987.1366,gflops:35.9455
+name:mkl,tn:1,m:8192,n:8192,k:96,time(ms):3000.6722,gflops:42.9401
+name:mkl,tn:1,m:8192,n:8192,k:112,time(ms):2646.5387,gflops:56.8002
+name:mkl,tn:1,m:8192,n:8192,k:128,time(ms):2806.2653,gflops:61.2197
+name:mkl,tn:1,m:8192,n:8192,k:16,time(ms):1127.3750,gflops:19.0485
+name:mkl,tn:1,m:8192,n:8192,k:32,time(ms):1384.9903,gflops:31.0108
+name:mkl,tn:1,m:8192,n:8192,k:48,time(ms):2086.7790,gflops:30.8727
+name:mkl,tn:1,m:8192,n:8192,k:64,time(ms):2273.0374,gflops:37.7906
+name:mkl,tn:1,m:8192,n:8192,k:80,time(ms):2466.9399,gflops:43.5253
+name:mkl,tn:1,m:8192,n:8192,k:96,time(ms):2647.8310,gflops:48.6621
+name:mkl,tn:1,m:8192,n:8192,k:112,time(ms):2490.3194,gflops:60.3633
+name:mkl,tn:1,m:8192,n:8192,k:128,time(ms):2388.7631,gflops:71.9195

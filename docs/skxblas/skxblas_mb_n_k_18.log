@@ -1,0 +1,16 @@
+name:OpenBLAS,tn:18,m:8192,n:16,k:16,time(ms):0.3495,gflops:120.0217
+name:OpenBLAS,tn:18,m:8192,n:32,k:32,time(ms):0.7049,gflops:237.9926
+name:OpenBLAS,tn:18,m:8192,n:48,k:48,time(ms):1.1933,gflops:316.3486
+name:OpenBLAS,tn:18,m:8192,n:64,k:64,time(ms):1.7128,gflops:391.7981
+name:OpenBLAS,tn:18,m:8192,n:80,k:80,time(ms):2.5591,gflops:409.7481
+name:OpenBLAS,tn:18,m:8192,n:96,k:96,time(ms):3.0244,gflops:499.2516
+name:OpenBLAS,tn:18,m:8192,n:112,k:112,time(ms):3.8897,gflops:528.3702
+name:OpenBLAS,tn:18,m:8192,n:128,k:128,time(ms):4.9539,gflops:541.8634
+name:OpenBLAS,tn:18,m:8192,n:16,k:16,time(ms):31.8119,gflops:131.8472
+name:OpenBLAS,tn:18,m:8192,n:32,k:32,time(ms):62.5107,gflops:268.3895
+name:OpenBLAS,tn:18,m:8192,n:48,k:48,time(ms):95.0729,gflops:397.0505
+name:OpenBLAS,tn:18,m:8192,n:64,k:64,time(ms):147.4274,gflops:455.1995
+name:OpenBLAS,tn:18,m:8192,n:80,k:80,time(ms):211.1646,gflops:496.5682
+name:OpenBLAS,tn:18,m:8192,n:96,k:96,time(ms):320.4924,gflops:471.1342
+name:OpenBLAS,tn:18,m:8192,n:112,k:112,time(ms):359.1851,gflops:572.1866
+name:OpenBLAS,tn:18,m:8192,n:128,k:128,time(ms):460.3265,gflops:583.1414

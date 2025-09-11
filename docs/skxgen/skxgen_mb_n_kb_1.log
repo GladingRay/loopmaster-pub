@@ -1,0 +1,16 @@
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:16,k:8192,time(ms):1207.5694,gflops:17.7835
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:32,k:8192,time(ms):1396.3982,gflops:30.7575
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:48,k:8192,time(ms):1595.4154,gflops:40.3810
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:64,k:8192,time(ms):1833.4886,gflops:46.8502
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:80,k:8192,time(ms):1998.9883,gflops:53.7143
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:96,k:8192,time(ms):2179.6300,gflops:59.1151
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:112,k:8192,time(ms):2444.8436,gflops:61.4861
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:128,k:8192,time(ms):2633.0408,gflops:65.2473
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:16,k:8192,time(ms):1032.4297,gflops:20.8003
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:32,k:8192,time(ms):1247.1736,gflops:34.4376
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:48,k:8192,time(ms):1519.4518,gflops:42.3998
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:64,k:8192,time(ms):1668.4327,gflops:51.4851
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:80,k:8192,time(ms):1899.4480,gflops:56.5292
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:96,k:8192,time(ms):2134.9890,gflops:60.3511
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:112,k:8192,time(ms):2297.1456,gflops:65.4394
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 16, 2, 12, TestSize, 384>,tn:1,m:8192,n:128,k:8192,time(ms):2501.0324,gflops:68.6911

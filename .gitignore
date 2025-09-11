@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+.vscode
+
+x*l*blastst
+
+*.out
+xblat*
+
+
+uptosw.sh
+downfromsw.sh
+./test/mytest/**
+
+build/
+build_mkl/
+build_unittest/
+kernel_generator/
+
+gencode/*.hpp
+
+tuner/gemm_config.h
+*tune_result
+
+__pycache__

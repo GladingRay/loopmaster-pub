@@ -1,0 +1,16 @@
+name:Scheme_NN_49_kernel3_WA_NB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 64, 2, 12, 64, 64>,tn:1,m:64,n:64,k:64,time(ms):0.1273,gflops:41.1697
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:128,n:128,k:128,time(ms):0.7070,gflops:59.3221
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:256,n:256,k:256,time(ms):5.2165,gflops:64.3241
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:512,n:512,k:512,time(ms):30.1473,gflops:89.0413
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:1024,n:1024,k:1024,time(ms):224.7899,gflops:95.5329
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:2048,n:2048,k:2048,time(ms):1779.1975,gflops:96.5597
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:4096,n:4096,k:4096,time(ms):13604.9812,gflops:101.0211
+name:Scheme_NN_69_kernel3_WA_WB_RC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:8192,n:8192,k:8192,time(ms):106058.7376,gflops:103.6701
+name:Scheme_NN_49_kernel3_WA_NB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 64, 2, 12, 64, 64>,tn:1,m:64,n:64,k:64,time(ms):0.1278,gflops:41.0344
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:128,n:128,k:128,time(ms):0.7199,gflops:58.2660
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:256,n:256,k:256,time(ms):5.2591,gflops:63.8025
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:512,n:512,k:512,time(ms):30.4277,gflops:88.2207
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:1024,n:1024,k:1024,time(ms):235.8893,gflops:91.0378
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:2048,n:2048,k:2048,time(ms):1780.4874,gflops:96.4897
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:4096,n:4096,k:4096,time(ms):13975.1485,gflops:98.3453
+name:Scheme_NN_69_kernel3_WA_WB_RC_M0N0K0N1M1N2M2K1N3_func<double, 16, 192, 2, 12, 8640, 384>,tn:1,m:8192,n:8192,k:8192,time(ms):109140.1405,gflops:100.7431

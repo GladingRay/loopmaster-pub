@@ -1,0 +1,16 @@
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:16,time(ms):1225.0229,gflops:17.5302
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:32,time(ms):1322.5711,gflops:32.4744
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:48,time(ms):1456.8116,gflops:44.2230
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:64,time(ms):1595.0051,gflops:53.8552
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:80,time(ms):1779.1611,gflops:60.3510
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:96,time(ms):1992.7170,gflops:64.6600
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:112,time(ms):2166.4495,gflops:69.3872
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:128,time(ms):2382.2496,gflops:72.1162
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:16,time(ms):1053.4464,gflops:20.3853
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:32,time(ms):1166.2559,gflops:36.8270
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:48,time(ms):1322.1986,gflops:48.7253
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:64,time(ms):1492.1604,gflops:57.5671
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:80,time(ms):1676.9921,gflops:64.0278
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:96,time(ms):1883.0060,gflops:68.4273
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:112,time(ms):2065.1159,gflops:72.7920
+name:Scheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func<double, 16, 512, 2, 12, MaxSize, TestSize>,tn:1,m:8192,n:8192,k:128,time(ms):2270.1985,gflops:75.6756

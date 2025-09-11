@@ -1,0 +1,16 @@
+m_n_kb_OpenBLAS_spdup:0.91
+m_n_kb_mkl_spdup:0.81
+m_nb_k_OpenBLAS_spdup:0.91
+m_nb_k_mkl_spdup:0.63
+m_nb_kb_OpenBLAS_spdup:0.95
+m_nb_kb_mkl_spdup:0.88
+mb_n_k_OpenBLAS_spdup:1.01
+mb_n_k_mkl_spdup:0.80
+mb_n_kb_OpenBLAS_spdup:0.90
+mb_n_kb_mkl_spdup:1.64
+mb_nb_k_OpenBLAS_spdup:1.27
+mb_nb_k_mkl_spdup:1.31
+mb_nb_kb_OpenBLAS_spdup:0.93
+mb_nb_kb_mkl_spdup:0.92
+OpenBLAS_avg_spdup:0.99
+mkl_avg_spdup:1.00

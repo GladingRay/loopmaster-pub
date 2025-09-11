@@ -1,0 +1,8 @@
+name:OpenBLAS,tn:18,m:8192,n:8192,k:16,time(ms):772.0287,gflops:27.8161
+name:OpenBLAS,tn:18,m:8192,n:8192,k:32,time(ms):780.1413,gflops:55.0537
+name:OpenBLAS,tn:18,m:8192,n:8192,k:48,time(ms):792.5367,gflops:81.2890
+name:OpenBLAS,tn:18,m:8192,n:8192,k:64,time(ms):801.2115,gflops:107.2118
+name:OpenBLAS,tn:18,m:8192,n:8192,k:80,time(ms):796.9934,gflops:134.7241
+name:OpenBLAS,tn:18,m:8192,n:8192,k:96,time(ms):806.0335,gflops:159.8557
+name:OpenBLAS,tn:18,m:8192,n:8192,k:112,time(ms):819.5418,gflops:183.4243
+name:OpenBLAS,tn:18,m:8192,n:8192,k:128,time(ms):824.3035,gflops:208.4168

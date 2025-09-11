@@ -1,0 +1,32 @@
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:16,n:8192,k:8192,time(ms):193.3041,gflops:111.0935
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:32,n:8192,k:8192,time(ms):199.3856,gflops:215.4101
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:48,n:8192,k:8192,time(ms):210.1640,gflops:306.5440
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:64,n:8192,k:8192,time(ms):222.0310,gflops:386.8800
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:80,n:8192,k:8192,time(ms):239.4263,gflops:448.4644
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:96,n:8192,k:8192,time(ms):259.1161,gflops:497.2637
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:112,n:8192,k:8192,time(ms):296.4507,gflops:507.0788
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:128,n:8192,k:8192,time(ms):329.0947,gflops:522.0342
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:16,n:8192,k:8192,time(ms):191.4217,gflops:112.1860
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:32,n:8192,k:8192,time(ms):205.2686,gflops:209.2364
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:48,n:8192,k:8192,time(ms):223.0244,gflops:288.8675
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:64,n:8192,k:8192,time(ms):254.2673,gflops:337.8308
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:80,n:8192,k:8192,time(ms):277.9005,gflops:386.3764
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:96,n:8192,k:8192,time(ms):299.9127,gflops:429.6217
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:112,n:8192,k:8192,time(ms):326.9428,gflops:459.7864
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:128,n:8192,k:8192,time(ms):358.0066,gflops:479.8758
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:16,n:8192,k:8192,time(ms):191.8049,gflops:111.9619
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 256, 384, 18, 1, 1>,tn:18,m:32,n:8192,k:8192,time(ms):205.5628,gflops:208.9370
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:48,n:8192,k:8192,time(ms):223.5344,gflops:288.2084
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:64,n:8192,k:8192,time(ms):256.0103,gflops:335.5308
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:80,n:8192,k:8192,time(ms):281.0188,gflops:382.0889
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:96,n:8192,k:8192,time(ms):302.7047,gflops:425.6591
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:112,n:8192,k:8192,time(ms):323.8900,gflops:464.1200
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 256, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:128,n:8192,k:8192,time(ms):360.1692,gflops:476.9945
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 120, 384, 18, 1, 1>,tn:18,m:16,n:8192,k:8192,time(ms):187.1503,gflops:114.7465
+name:ParallelScheme_NN_1681928192_kernel3_NA_WB_NC_M0N0K0N1M1N2N3K1M2_func<double, 16, TestSize, 2, 12, 120, 384, 18, 1, 1>,tn:18,m:32,n:8192,k:8192,time(ms):192.3138,gflops:223.3312
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:48,n:8192,k:8192,time(ms):199.6511,gflops:322.6855
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:64,n:8192,k:8192,time(ms):205.2681,gflops:418.4739
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:80,n:8192,k:8192,time(ms):213.4774,gflops:502.9768
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:96,n:8192,k:8192,time(ms):224.7381,gflops:573.3296
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:112,n:8192,k:8192,time(ms):236.8319,gflops:634.7281
+name:ParallelScheme_NN_1681928192_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1K2M2_func<double, 16, TestSize, 2, 12, 120, 384, MaxSize, 18, 1, 1, 1>,tn:18,m:128,n:8192,k:8192,time(ms):254.5604,gflops:674.8837

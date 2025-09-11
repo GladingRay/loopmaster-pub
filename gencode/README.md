@@ -1,0 +1,1 @@
+# Here place generated code *.hpp or *.cc
