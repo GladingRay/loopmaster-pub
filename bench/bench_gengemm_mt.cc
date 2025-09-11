@@ -49,163 +49,8 @@ namespace bench
         constexpr int TestSize = 128;
 
 #ifdef LM_SW6A
-//===----------------------------------------------------------------------===//
-// Square
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(m == n && m == k && m == 1024,
-            ParallelScheme_NN_355_kernel2_WA_WB_RC_M0K0N0K1N1M1N2K2M2_func,
-            16, MaxSize, 4, 64, 4, 128, 1, 16, 1, 1
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m >= 2048 && m < 4096,
-            ParallelScheme_NN_355_kernel2_WA_WB_RC_M0K0N0K1N1M1N2K2M2_func,
-            16, MaxSize, 4, 128, 4, 128, 1, 16, 1, 1
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m >= 4096 && m <= 8192,
-            ParallelScheme_NN_355_kernel2_WA_WB_RC_M0K0N0K1N1M1N2K2M2_func,
-            16, MaxSize, 4, 256, 4, 128, 1, 16, 1, 1
-        )
-//===----------------------------------------------------------------------===//
-// mNK
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(n == k && n == MaxSize && m >= 16 && m <= 32,
-            ParallelScheme_NN_1_kernel2_NA_NB_NC_M0K0N0K1N1M1K2N2_func,
-            16, 4, 256, 4, 128, 1, 1, 16
-        )
-        BENCH_SCHEME_IF(n == k && n == MaxSize && m >= 48 && m <= 128,
-            ParallelScheme_NN_1654_kernel2_WA_WB_RC_M0K0N0K1N1K2M1N2M2K3M3N3_func,
-            16, TestSize, TestSize, 4, 256, 256, 4, 128, 256, 1, 1, 1, 1, 1, 1, 16 
-        )
-//===----------------------------------------------------------------------===//
-// MnK
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(m == k && m == MaxSize && n >= 16 && n <= 128,
-            ParallelScheme_NN_939_kernel2_WA_WB_RC_M0K0N0K1N1M1N2K2N3K3M2_func,
-            16, 512, 4, TestSize, TestSize, 4, 128, 128, 1, 1, 1, 1, 1, 16
-        )
-//===----------------------------------------------------------------------===//
-// MNk
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(m == n && m == MaxSize && k == 16,
-            ParallelScheme_NN_596_kernel2_WA_NB_NC_M0K0N0K1N1M1N2K2M2N3_func,
-            16, 512, 4, 512, 512, 4, TestSize, 1, 1, 1, 4, 4
-        )
-        BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 32 && k <= 128,
-            ParallelScheme_NN_618_kernel2_WA_WB_NC_M0K0N0K1N1M1N2K2M2N3_func,
-            16, 512, 4, 512, 512, 4, TestSize, 1, 1, 1, 4, 4
-        )
-//===----------------------------------------------------------------------===//
-// mnK
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(m == n && k == MaxSize && m >= 16 && m <= 128,
-            ReductionScheme_NN_16168192_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2_func,
-            16, 4, 16, 4, 128, 16
-        )
-//===----------------------------------------------------------------------===//
-// mNk
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(m == k && n == MaxSize && m >= 16 && m <= 128,
-            ParallelScheme_NN_1_kernel2_NA_NB_NC_M0K0N0K1N1M1K2N2_func,
-            16, 4, 512, 4, TestSize, 1, 1, 16
-        )
-//===----------------------------------------------------------------------===//
-// Mnk
-//===----------------------------------------------------------------------===//
-        BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 48,
-            ParallelScheme_NN_277_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 512, 4, TestSize, 4, TestSize, 1, 1, 1, 16
-        )
-        BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 64 && n <= 128,
-            ParallelScheme_NN_333_kernel2_WA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 512, 4, TestSize, 4, TestSize, 1, 1, 1, 16
-        )
+
 #elif defined(LM_SW8A)
-// Square
-        BENCH_SCHEME_IF(m == n && m == k && m == 1024,
-            ParallelScheme_NN_925_kernel2_WA_WB_NC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 64, 4, 16, 256, 4, 256, 256, 1, 1, 1, 16, 1, 4
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 2048,
-            ParallelScheme_NN_925_kernel2_WA_WB_NC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 64, 4, 32, 1024, 4, 256, 256, 1, 1, 1, 32, 1, 2
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 3072,
-            ParallelScheme_NN_925_kernel2_WA_WB_NC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 96, 4, 48, 1536, 4, 256, 256, 1, 1, 1, 32, 1, 2
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 4096,
-            ParallelScheme_NN_941_kernel2_WA_WB_RC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 128, 4, 64, 2048, 4, 256, 256, 1, 1, 1, 32, 1, 2
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 5120,
-            ParallelScheme_NN_941_kernel2_WA_WB_RC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 80, 4, 80, MaxSize, 4, 256, 256, 1, 1, 1, 64, 1, 1
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 6144,
-            ParallelScheme_NN_941_kernel2_WA_WB_RC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 96, 4, 96, MaxSize, 4, 256, 256, 1, 1, 1, 64, 1, 1
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 7168,
-            ParallelScheme_NN_941_kernel2_WA_WB_RC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 112, 4, 112, MaxSize, 4, 256, 256, 1, 1, 1, 64, 1, 1
-        )
-        BENCH_SCHEME_IF(m == n && m == k && m == 8192,
-            ParallelScheme_NN_941_kernel2_WA_WB_RC_M0K0N0K1N1M1K2N2M2K3N3_func,
-            16, 128, 4, 128, MaxSize, 4, 256, 256, 1, 1, 1, 64, 1, 1
-        )
-// mNK
-        BENCH_SCHEME_IF(n == k && n == MaxSize && m == 16,
-            ParallelScheme_NN_1681928192_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2K3M2_func,
-            16, TestSize, 4, 128, 4, 256, MaxSize, 1, 64, 1, 1, 1
-        )
-        BENCH_SCHEME_IF(n == k && n == MaxSize && m >= 32 && m <= 80,
-            ParallelScheme_NN_1681928192_kernel2_WA_NB_NC_M0K0N0K1N1M1N2K2K3M2_func,
-            16, TestSize, 4, 128, 4, 256, MaxSize, 1, 64, 1, 1, 1
-        )
-        BENCH_SCHEME_IF(n == k && n == MaxSize && m >= 96 && m <= 128,
-            ParallelScheme_NN_1681928192_kernel2_WA_WB_NC_M0K0N0K1N1M1N2K2K3M2_func,
-            16, TestSize, 4, 128, 4, 256, MaxSize, 1, 64, 1, 1, 1
-        )
-// MnK
-        BENCH_SCHEME_IF(m == k && m == MaxSize && (n == 16 || n == 48 || n == 112),
-            ParallelScheme_NN_8192168192_kernel2_WA_NB_RC_M0K0N0K1N1M1K2K3N2_func,
-            16, 4, TestSize, 4, 256, MaxSize, 64, 1, 1, 1
-        )
-        BENCH_SCHEME_IF(m == k && m == MaxSize && n == 32,
-            ParallelScheme_NN_8192168192_kernel2_WA_WB_RC_M0K0N0K1N1M1K2K3N2_func,
-            16, 4, TestSize, 4, 256, MaxSize, 64, 1, 1, 1
-        )
-        BENCH_SCHEME_IF(m == k && m == MaxSize && (n == 64 || n == 80 || n == 96 || n == 128),
-            ParallelScheme_NN_8192168192_kernel2_WA_NB_NC_M0K0N0K1N1M1K2K3N2_func,
-            16, 4, TestSize, 4, 256, MaxSize, 64, 1, 1, 1
-        )
-// MNk
-        BENCH_SCHEME_IF(m == n && m == MaxSize && k == 16,
-            ParallelScheme_NN_277_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 1024, 4, 256, 4, TestSize, 1, 8, 1, 8
-        )
-        BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 32 && k <= 128,
-            ParallelScheme_NN_351_kernel2_WA_WB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 1024, 4, 256, 4, TestSize, 1, 8, 1, 8
-        )
-// mnK
-        BENCH_SCHEME_IF(m == n && k == MaxSize && m >= 16 && m <= 128,
-            ReductionScheme_NN_16168192_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2_func,
-            16, 4, 16, 4, 128, 64
-        )
-// mNk
-        BENCH_SCHEME_IF(m == k && n == MaxSize && m >= 16 && m <= 128,
-            ParallelScheme_NN_277_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, TestSize, 4, 128, 4, TestSize, 1, 64, 1, 1
-        )
-// Mnk
-        BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 64,
-            ParallelScheme_NN_277_kernel2_NA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 128, 4, TestSize, 4, TestSize, 1, 1, 1, 64
-        )
-        BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 80 && n <= 128,
-            ParallelScheme_NN_333_kernel2_WA_NB_NC_M0K0N0K1N1M1N2K2M2_func,
-            16, 128, 4, TestSize, 4, TestSize, 1, 1, 1, 64
-        )
 
 #elif defined(LM_SKX)
 //===----------------------------------------------------------------------===//
@@ -264,39 +109,18 @@ namespace bench
 //===----------------------------------------------------------------------===//
 // MNk
 //===----------------------------------------------------------------------===//
-        // BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 128,
-        //     ParallelScheme_NN_1_kernel3_NA_NB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 32, 2, 12, 256, 128, 18, 1, 1
-        // )
         BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 48,
             ParallelScheme_NN_5_kernel3_NA_NB_RC_M0N0K0N1M1N2M2K1N3_func,
             16, 32, 2, 12, 256, 128, 18, 1, 1
-        ) // 48 32 16
-        // BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 128,
-        //     ParallelScheme_NN_17_kernel3_NA_WB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 32, 2, 12, 256, 128, 18, 1, 1
-        // )
+        )
         BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 64 && k <= 80,
             ParallelScheme_NN_21_kernel3_NA_WB_RC_M0N0K0N1M1N2M2K1N3_func,
             16, 32, 2, 12, 256, 128, 18, 1, 1
-        ) // 80 64
-        // BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 128,
-        //     ParallelScheme_NN_49_kernel3_WA_NB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 32, 2, 12, 256, 128, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 128,
-        //     ParallelScheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 32, 2, 12, 256, 128, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 16 && k <= 128,
-        //     ParallelScheme_NN_53_kernel3_WA_NB_RC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 32, 2, 12, 256, 128, 18, 1, 1
-        // )
+        )
         BENCH_SCHEME_IF(m == n && m == MaxSize && k >= 96 && k <= 128,
             ParallelScheme_NN_69_kernel3_WA_WB_RC_M0N0K0N1M1N2M2K1N3_func,
             16, 32, 2, 12, 256, 128, 18, 1, 1
-        ) // 128 112 96
-        
+        )
 //===----------------------------------------------------------------------===//
 // mnK
 //===----------------------------------------------------------------------===//
@@ -318,47 +142,14 @@ namespace bench
 //===----------------------------------------------------------------------===//
 // Mnk
 //===----------------------------------------------------------------------===//
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_81921616_kernel3_NA_NB_NC_M0N0K0N1M1N2N3K1M2_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 1, 1, 18
-        // ) 
         BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 64 && n <= 128,
             ParallelScheme_NN_81921616_kernel3_WA_WB_NC_M0N0K0N1M1N2N3K1M2_func,
             16, 256, 2, 12, TestSize, TestSize, 1, 1, 18
-        ) // 128 64 80 96 112
-
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_17_kernel3_NA_WB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
+        )
         BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 48,
             ParallelScheme_NN_1_kernel3_NA_NB_NC_M0N0K0N1M1N2M2K1N3_func,
             16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        ) // 16 32 48
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_21_kernel3_NA_WB_RC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_49_kernel3_WA_NB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_53_kernel3_WA_NB_RC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_5_kernel3_NA_NB_RC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_65_kernel3_WA_WB_NC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
-        // BENCH_SCHEME_IF(n == k && m == MaxSize && n >= 16 && n <= 128,
-        //     ParallelScheme_NN_69_kernel3_WA_WB_RC_M0N0K0N1M1N2M2K1N3_func,
-        //     16, 256, 2, 12, TestSize, TestSize, 18, 1, 1
-        // )
+        )
 #endif
         free(a);
         free(b);
